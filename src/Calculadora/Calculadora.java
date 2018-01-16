@@ -1,3 +1,4 @@
+package Calculadora;
 
 public class Calculadora {
 
@@ -5,11 +6,19 @@ public class Calculadora {
 
 	}
 
-	public int sumar(int x, int y) {
+	public static int sumar(int x, int y) {
 		return x + y;
 	}
 
 	public int restar(int x, int y) {
 		return x - y;
 	}
+	public static int multiplicar(int x, double y) {
+		
+		
+		int z = (int) (x * y);
+		
+		return z;
+	}
+	
 }
